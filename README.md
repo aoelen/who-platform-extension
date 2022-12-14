@@ -1,4 +1,4 @@
-#<img src="public/icons/icon.png" width="45" align="left" style="margin-right: 10px"> WHO COVID-19 Research Database Extension
+# WHO COVID-19 Research Database Extension
 
 This Chrome extension enhances the [WHO COVID-19 Research Database](https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/) by providing additional labels to articles listed in the interface. See the labels next to the article titles in the screenshot below.
 
@@ -20,10 +20,15 @@ The extension is currently not yet available in the Chrome store. You can downlo
 1. Clone this repository
 2. Visit `chrome://extensions` in the browser
 3. Click on the `Load unpacked` button
+
    <img src="docs/img/loadunpacked.png" width="400">
+
 4. Find the `build` directory in the just cloned repository and select it. The extension should be visible now in the extension list:
+
    <img src="docs/img/extension.png" width="400">
+
 5. Visit the [WHO COVID-19 Research Database](https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/) (the extension is only activated on this website). The extension will be visible as displayed below. Additionally, the article titles in the search interface will include additional labels.
+
    <img src="docs/img/tooltip.png" width="400">
 
 ## Development
