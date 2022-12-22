@@ -27,7 +27,7 @@ const templatePlaceholder = () =>
 
 const fetchPaperData = (title) => {
   return fetch(
-    `${API_PAPER_CLASSIFICATION}WHO_paper_classification/research_paper_classification_using_title_UncataData?title=${title}&UploadPdf=False`,
+    `${API_PAPER_CLASSIFICATION}WHO_paper_classification/research_paper_classification_using_title_WHOcataData?title=${title}`,
     { method: 'POST' }
   )
     .then((response) => response.json())
